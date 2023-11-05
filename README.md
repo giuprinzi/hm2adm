@@ -10,6 +10,8 @@ Polidori Andrea 2143429 polidori.2143429@studenti.uniroma1.it
 
 Prinzi Giuliana 1952137  prinzi.1952137@studenti.uniroma1.it
 
+This is the solution of the Homework 2 for Algorithmic Methods of Data Mining and Laboratory 2023/2024
+
 # Script description
 
 1. `Homework2_ADM.ipynb`: this file contains the answer to all RQ questions 1 through 8, the Algorithmic question and the AWS question
