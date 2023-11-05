@@ -105,45 +105,6 @@ def highest_number_of_rewiews_bis(filename):
 
 
 
-
-
-def top_ten_worst_ten(filename):
-    """
-    Find and print the top ten and worst ten titles based on average ratings from a JSONLines file.
-    
-    Args:
-        filename (str): The path to the JSONLines file to be processed.
-    
-    This function reads the JSONLines file in chunks, extracts 'title' and 'average_rating' columns, and sorts them by
-    'average_rating' in descending order. For each chunk, it identifies the top ten and worst ten titles based on average
-    ratings. The results from all chunks are concatenated to obtain the overall top ten and worst ten titles, which are
-    then printed without row indices.
-    """
-    top_ten_list = []
-    worst_ten_list = []  
-
-    for chunk in pd.read_json(filename, lines=True, chunksize=10000):
-        selected_columns = chunk[['title', 'average_rating']]
-        selected_columns_sorted = selected_columns.sort_values(by='average_rating', ascending=False)
-
-        top_ten_chunk = selected_columns_sorted.head(10)['title']
-        top_ten_list.append(top_ten_chunk)
-
-        worst_ten_chunk = selected_columns_sorted.tail(10)['title']
-        worst_ten_list.append(worst_ten_chunk)
-
-    top_ten = pd.concat(top_ten_list)
-    worst_ten = pd.concat(worst_ten_list)
-
-    print("Top ten titles:")
-    for title in top_ten:
-        print(title)
-
-    print("Worst ten titles:")
-    for title in worst_ten:
-        print(title)
-
-
 def distribution_of_languages(filename):
     for chunk in pd.read_json(filename, lines=True, chunksize=10000):
         chunk=chunk[chunk['language']!=""]
