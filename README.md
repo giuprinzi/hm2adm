@@ -3,8 +3,11 @@
 Group 8
 
 Cesario Laura Thoft 1852596 cesario.1852596@studenti.uniroma1.it
+
 Mari Francesco 1919565 mari.1919565@studenti.uniroma1.it
+
 Polidori Andrea 2143429 polidori.2143429@studenti.uniroma1.it
+
 Prinzi Giuliana 1952137  prinzi.1952137@studenti.uniroma1.it
 
 # Script description
