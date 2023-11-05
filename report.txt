@@ -1,0 +1,5 @@
+"ID: 302380, Series: Extraordinary Voyages, Total Books Count: 20138"
+"ID: 94209, Series: Alice's Adventures in Wonderland, Total Books Count: 14280"
+"ID: 311348, Series: Kolekcja Arcydzieł Literatury Światowej, Total Books Count: 13774"
+"ID: 41459, Series: Oz, Total Books Count: 11519"
+"ID: 51138, Series: Hercule Poirot, Total Books Count: 11305"
