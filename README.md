@@ -13,7 +13,7 @@ Prinzi Giuliana 1952137  prinzi.1952137@studenti.uniroma1.it
 # Script description
 1. Homework2_ADM.ipynb:
    
-⋅⋅⋅this file contains the answer to all RQ questions 1 through 8, the Algorithmic question and the AWS question
+⋅⋅⋅this file contains the answer to all RQ questions 1 through 8, the Algorithmic question and the AWS question⋅⋅
 
 3. functions.py: this file contains all the functions used in Homework2_ADM.ipynb
 4. commandline_original.sh: this file contains the answer code to the first commandline question
